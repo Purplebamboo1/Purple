@@ -3,7 +3,6 @@ name: test
 on: push
 
 jobs:
-	deploy:
-		runs-on: ubuntu-latest	
-		steps:
-  			-run: echo "start testing"
+	runs-on: ubuntu-latest	
+	steps:
+  		-run: echo "start testing"
