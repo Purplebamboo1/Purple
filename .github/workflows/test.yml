@@ -1,7 +1,6 @@
 name: test
 
-on:
-	workflow-dispatch:
+on: push
 
 jobs:
 	deploy:
