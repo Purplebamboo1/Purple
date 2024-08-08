@@ -1,9 +1,9 @@
 name: test
 
 on:
-	workflow-dispatch
+	workflow-dispatch:
 
-job:
+jobs:
 	deploy:
 		runs-on: ubuntu-latest	
 		steps:
