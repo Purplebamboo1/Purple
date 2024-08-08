@@ -1,8 +1,8 @@
-name: test
-
+name: hello-world
 on: push
-
 jobs:
-	runs-on: ubuntu-latest	
-	steps:
-  		-run: echo "start testing"
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
